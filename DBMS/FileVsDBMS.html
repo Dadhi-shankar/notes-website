@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File System vs DBMS - Study Notes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        .header {
+            text-align: center;
+            background: #4a90e2;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            margin: -30px -30px 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 5px solid #4a90e2;
+            background: #f9f9f9;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #4a90e2;
+            font-size: 1.5em;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 10px 0;
+            position: relative;
+            padding-left: 30px;
+        }
+        .section ul li::before {
+            content: "📝";
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+        }
+        .table {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .table div {
+            width: 48%;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .table h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+        .table ul li::before {
+            content: "🔹";
+        }
+        @media (max-width: 600px) {
+            .table {
+                flex-direction: column;
+            }
+            .table div {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>File System vs DBMS - Study Notes</h1>
+        </div>
+        <div class="quote">
+            "The only limit to our realization of tomorrow will be our doubts of today. Keep learning, keep growing!" – Franklin D. Roosevelt
+        </div>
+
+        <div class="section">
+            <h2>1. Definition</h2>
+            <ul>
+                <li><strong>File System:</strong> Traditional way to store and manage data using files (e.g., .txt, .doc).</li>
+                <li><strong>DBMS (Database Management System):</strong> Software that stores, manages, and retrieves data efficiently using databases.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2. Key Differences</h2>
+            <div class="table">
+                <div>
+                    <h3>File System</h3>
+                    <ul>
+                        <li>Data stored in files and folders.</li>
+                        <li>High data redundancy.</li>
+                        <li>No integrity constraints.</li>
+                        <li>Limited security (file-level).</li>
+                        <li>Difficult to handle multiple users.</li>
+                        <li>No standard query language.</li>
+                        <li>Manual backup & recovery.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>DBMS</h3>
+                    <ul>
+                        <li>Data stored in structured format (tables).</li>
+                        <li>Minimizes redundancy using normalization.</li>
+                        <li>Enforces integrity (Primary Key, Foreign Key).</li>
+                        <li>Advanced security (user roles, permissions).</li>
+                        <li>Supports concurrent access.</li>
+                        <li>Uses SQL for querying.</li>
+                        <li>Automated backup & recovery tools.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Real-Life Examples</h2>
+            <div class="table">
+                <div>
+                    <h3>File System Examples</h3>
+                    <ul>
+                        <li>Storing personal notes or documents on your PC.</li>
+                        <li>Excel sheets for managing contacts or expenses.</li>
+                        <li>Attendance recorded manually in spreadsheets.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>DBMS Examples</h3>
+                    <ul>
+                        <li>Library Management System using MySQL.</li>
+                        <li>Student Information System in schools (Oracle DB).</li>
+                        <li>Online Shopping (Amazon uses DynamoDB/MySQL).</li>
+                        <li>Banking Systems using DB2, Oracle, etc.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4. When to Use</h2>
+            <ul>
+                <li><strong>File System:</strong> Small, personal, or one-time data storage.</li>
+                <li><strong>DBMS:</strong> Large-scale, multi-user, secure, and consistent data operations.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Conclusion</h2>
+            <ul>
+                <li>File systems are simple but limited.</li>
+                <li>DBMS is powerful, secure, and ideal for large applications.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Keep studying, keep shining! 🌟</p>
+        </div>
+    </div>
+</body>
+</html>
