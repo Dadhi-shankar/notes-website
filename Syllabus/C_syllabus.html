@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Notes Syllabus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        .header {
+            text-align: center;
+            background: #4a90e2;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            margin: -30px -30px 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 5px solid #4a90e2;
+            background: #f9f9f9;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #4a90e2;
+            font-size: 1.8em;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 10px 0;
+            position: relative;
+            padding-left: 30px;
+        }
+        .section ul li::before {
+            content: "📝";
+            position: absolute;
+            left: 0;
+            color: #4a90e2;
+        }
+        .subsection {
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: 2px dashed #4a90e2;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .section h2 {
+                font-size: 1.6em;
+            }
+            .section ul li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>C Programming Notes Syllabus</h1>
+        </div>
+        <div class="quote">
+            "The best way to predict the future is to invent it with code." – Alan Kay
+        </div>
+
+        <div class="section">
+            <h2>Current Date and Time</h2>
+            <ul>
+                <li>It's <strong>06:52 AM IST</strong> on <strong>Thursday, August 07, 2025</strong> – A great morning to dive into C programming!</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>1. Overview of C Language</h2>
+            <ul>
+                <li>Character set, C tokens, Identifiers, Keywords, Data types, Variables</li>
+                <li>Constants, Symbolic Constants</li>
+                <li>Operators in C, Hierarchy of Operators, Expressions, Type Conversions and Library Functions</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2. Managing Input and Output Operations</h2>
+            <ul>
+                <li>Formatted and Unformatted I/O Functions, Decision making, branching and looping</li>
+                <li><strong>Decision Making Statements:</strong>
+                    <ul class="subsection">
+                        <li>if Statement</li>
+                        <li>if-else statement</li>
+                        <li>nesting of if-else statements</li>
+                        <li>else-if ladder</li>
+                        <li>switch statement</li>
+                        <li>? operator</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Looping</h2>
+            <ul>
+                <li>while, do-while, for loop, Nested loop, break, continue, and goto statements</li>
+                <li><strong>Functions:</strong>
+                    <ul class="subsection">
+                        <li>Function Definition</li>
+                        <li>prototyping</li>
+                        <li>types of functions</li>
+                        <li>passing arguments to functions</li>
+                        <li>Nested Functions</li>
+                        <li>Recursive functions</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Arrays</h2>
+            <ul>
+                <li>Declaring and Initializing, One Dimensional Arrays, Two Dimensional Arrays, Multi-Dimensional Arrays</li>
+                <li>Passing arrays to functions</li>
+                <li><strong>Strings:</strong>
+                    <ul class="subsection">
+                        <li>Declaring and initializing strings</li>
+                        <li>Operations on strings</li>
+                    </ul>
+                </li>
+                <li>Arrays of strings, passing strings to functions</li>
+                <li><strong>Storage Classes:</strong>
+                    <ul class="subsection">
+                        <li>Automatic</li>
+                        <li>External</li>
+                        <li>Static</li>
+                        <li>Register Variables</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Structures</h2>
+            <ul>
+                <li>Declaring and Initializing, Nested structure, Array of Structures, Passing Structures to functions</li>
+                <li>Unions, typedef, enum, Bit fields</li>
+                <li><strong>Pointers:</strong>
+                    <ul class="subsection">
+                        <li>Declarations</li>
+                        <li>Pointer arithmetic</li>
+                        <li>Pointers and functions</li>
+                        <li>Call by value</li>
+                        <li>Call by reference</li>
+                    </ul>
+                </li>
+                <li>Pointers and Arrays, Arrays of Pointers, Pointers and Structures</li>
+                <li>Meaning of static and dynamic memory allocation, Memory allocation functions</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Code your dreams into reality! 🚀</p>
+        </div>
+    </div>
+</body>
+</html>
