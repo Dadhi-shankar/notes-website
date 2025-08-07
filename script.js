@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             'History': [
                 { name: 'Chapter 1', file: 'chapter1.html' }
+            ],
+			'Syllabus': [
+                { name: 'DBMS ', file: 'DBMS_SYLLABUS.html' },
+                { name: 'C ', file: 'C_syllabus.html' },
+                { name: 'CN ', file: 'CN_Syllabus.html' }
             ]
         };
 
