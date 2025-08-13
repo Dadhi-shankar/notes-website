@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			'Syllabus': [
                 { name: 'DBMS ', file: 'DBMS_SYLLABUS.html' },
                 { name: 'C ', file: 'C_syllabus.html' },
-                { name: 'CN ', file: 'CN_Syllabus.html' }
-				{ name: 'Java', file: 'java.html' },
+                { name: 'CN ', file: 'CN_Syllabus.html' },
+                { name: 'java ', file: 'java.html' }
             ]
         };
 
@@ -38,4 +38,3 @@ document.addEventListener('DOMContentLoaded', () => {
         notesList.innerHTML = '<p>No subject selected.</p>';
     }
 });
-
