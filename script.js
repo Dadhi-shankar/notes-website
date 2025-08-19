@@ -19,8 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Overview_of C_Language', file: 'Overview_of C_Language.html' },
                 { name: 'Notes 2', file: 'notes2.html' }
             ],
-            'History': [
-                { name: 'Chapter 1', file: 'chapter1.html' }
+            'Java': [
+                { name: 'Chapter 1', file: 'test.html' }
+            ],
+			'CN': [
+                { name: 'Chapter 1', file: 'test.html' }
             ],
 			'Syllabus': [
                 { name: 'DBMS ', file: 'DBMS_SYLLABUS.html' },
