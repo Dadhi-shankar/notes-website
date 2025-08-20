@@ -73,4 +73,5 @@ main {
     .subject-grid, .notes-grid {
         grid-template-columns: 1fr;
     }
+
 }
